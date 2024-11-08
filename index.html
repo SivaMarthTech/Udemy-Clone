@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <!--Google Stylesheet for Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Playfair+Display:wght@400..900&display=swap"
+        rel="stylesheet">
+    <!--My Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="navbar__s1__title"> Udemy</h1>
+            <p class="navbar__s1__categories">Categories</p>
+        </div>
+
+        <div class="navbar__s2">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000;"> </i>
+            <input placeholder="Search for anything here. Tech, Business, Art, ..">
+        </div>
+
+        <div class="navbar__s3">
+            <p>Udemy Business</p>
+            <p>Tech on Udemy</p>
+            <!--<p>My Learning</p> -->
+            <div class="mylearning">
+                <p>My Learning</p>
+                <div class="mylearning__popup">
+                    <p>You did not purchase anything yet</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-cart-shopping" style="color: black;"></i>
+            <i class="fa-solid fa-bell" style="color: black;"></i>
+            <i class="fa-solid fa-user" style="color: black;"></i>
+        </div>
+    </div>
+
+    <!--Categories-->
+    <div class="Categories">
+        <p>Development</p>
+        <p>Business</p>
+        <p>Finance & Accounting </p>
+        <p>IT & Software</p>
+        <p>Office Productivity</p>
+        <p>Personal Development</p>
+        <p>Design</p>
+        <p>Marketing</p>
+        <p>Health</p>
+        <p>Music</p>
+    </div>
+
+     <!-- Main Content -->
+    <div class="main-content">
+        <i class="fa-solid fa-user-circle"></i>
+        <div class="text-content">
+            <h3>Welcome back, Sivagami</h3>
+            <p>UX Designer</p>
+            <a href="#">Edit occupation and interests</a>
+        </div>
+    </div>
+
+    <!--Image Section -->
+    <!---
+    <div class="sale-image">
+      
+        <button class="nav-arrow left">&#10094;</button> 
+        <div class="text-box">
+            <h2>Benefit big-time</h2>
+            <p>
+                <a href="#">Join our email list</a> for special offers, personalized course recommendations, and more.
+            </p>
+        </div>
+
+        <img class="illustration" src="./images/image_1.jpg" alt="Sale Image">
+<div class="sale-image__offer">
+    <h2>Udemy Flash Sale! 24 hours to save.</h2>
+    <p>Get the top Courses for just 499. Just one day to save but a lifetime to learn</p>
+</div>
+
+
+        <button class="nav-arrow right">&#10095;</button> 
+
+    </div>
+-->
+
+    <!-- Image Section -->
+<div class="sale-image">
+    <img class="illustration" src="./images/image_1.jpg" alt="Sale Image">
+    <div class="sale-image__offer">
+        <h2>Udemy Flash Sale! 24 hours to save.</h2>
+        <p>Get the top Courses for just 499. Just one day to save but a lifetime to learn</p>
+    </div>
+</div>
+
+
+    <!-- Bottom Banner -->
+    <div class="banner">
+        <span class="text">Training 2 or more people? Get your team access to Udemy's top 27,000+ courses</span>
+        <div>
+            <button>Get Udemy Business</button>
+            <button>Dismiss</button>
+        </div>
+    </div>
+
+    <!--Recommended-->
+    <div class="recommended">
+        <h1 class="recommended__title">Recommended for you</h1>
+        <p>Pick the best fit</p>
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./images/c1.jpg" alt="">
+                <p>Learn Figma - UI/UX Design Essential Training</p>
+                <p>Caleb Kingstone</p>
+                <p>Rating: 4.4 ⭐⭐⭐⭐</p>
+                <p>Offer price: ₹3,099    Actually price:<del> ₹6,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c2.jpg" alt="">
+                <p>User Experience Design Essentials - Adobe XD UI UX Design</p>
+                <p>Daniel Walter Scott</p>
+                <p>Rating: 4.5 ⭐⭐⭐⭐</p>
+                <p>Offer price: ₹3,099    Actually price:<del> ₹6,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c3.jpg" alt="">
+                <p>UI/UX Design With Figma : 5+ Real World Projects</p>
+                <p>Chetan Pujari</p>
+                <p>Rating: 4.2 ⭐⭐⭐</p>
+                <p>Offer price: ₹2,499    Actually price:<del> ₹5,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c4.jpg" alt="">
+                <p>Master Figma for Web Design & Freelancing: Learn UI/UX</p>
+                <p>Cristain Doru</p>
+                <p>Rating: 4.8 ⭐⭐⭐⭐⭐</p>
+                <p>Offer price: ₹3,699    Actually price:<del> ₹6,599</del></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Topic-->
+    <div class="topics">
+        <h1 class="topics__title">Topics recommended for you</h1>
+        <div class="topics__container">
+            <p>Website</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>Mongo DB</p>
+            <p>Azure</p>
+            <p>GitHub</p>
+            <p>Docker</p>
+            <p>React JS</p>
+            <p>Angular JS</p>
+        </div>
+        <h1></h1>
+    </div>
+
+    <!--Popular-->
+    <div class="popular">
+        <h1 class="popular__title">Most Popular</h1>
+        <p class="popular__subtitle">Pick the best fit</p>
+
+        <div class="popular__container">
+            <div class="course-card">
+                <img src="./images/c5.jpg" alt="">
+                <p>Website</p>
+                <p>Kingstone</p>
+                <p>Rating: 3.9 ⭐⭐⭐</p>
+                <p>Offer price: ₹499  Actually price:<del> ₹2,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c6.jpg" alt="">
+                <p>JavaScript</p>
+                <p>Daniel</p>
+                <p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+                <p>Offer price: ₹599  Actually price:<del> ₹1,500</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c7.jpg" alt="">
+                <p>CSS</p>
+                <p>Chetan</p>
+                <p>Rating: 4.5 ⭐⭐⭐⭐</p>
+                <p>Offer price: ₹799  Actually price:<del> ₹2,500</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c8.jpg" alt="">
+                <p>Mongo DB</p>
+                <p>Alex</p>
+                <p>Rating: 4.8 ⭐⭐⭐⭐⭐</p>
+                <p>Offer price: ₹699  Actually price:<del> ₹2,999</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c9.jpg" alt="">
+                <p>Azure</p>
+                <p>Caleb</p>
+                <p>Rating: 3.4 ⭐⭐⭐</p>
+                <p>Offer price: ₹399  Actually price:<del> ₹1,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c10.jpg" alt="">
+                <p>GitHub</p>
+                <p>Walter Scott</p>
+                <p>Rating: 4.2 ⭐⭐⭐⭐</p>
+                <p>Offer price: ₹999  Actually price:<del> ₹3,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c11.jpg" alt="">
+                <p>Docker</p>
+                <p>Pujari</p>
+                <p>Rating: 3.2 ⭐⭐⭐</p>
+                <p>Offer price: ₹499  Actually price:<del> ₹2,500</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c12.jpg" alt="">
+                <p>React JS</p>
+                <p>Cristain</p>
+                <p>Rating: 3.8 ⭐⭐⭐</p>
+                <p>Offer price: ₹699  Actually price:<del> ₹3,000</del></p>
+            </div>
+<!--
+            <div class="course-card">
+                <img src="./images/c11.jpg" alt="">
+                <p>Docker</p>
+                <p>Pujari</p>
+                <p>Rating: 3.2 ⭐⭐⭐</p>
+                <p>Offer price: ₹499  Actually price:<del> ₹2,500</del></p>
+            </div>
+            -->
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer__one">
+            <div class="footer__one__s1">
+                <p>Udemy Business</p>
+                <p>Teach on Udemy</p>
+                <p>Get the App</p>
+                <p>About us</p>
+                <p>Contact us</p>
+            </div>
+
+            <div class="footer__one__s2">
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Help and Support</p>
+                <p>Affiliate</p>
+                <p>Investors</p>
+            </div>
+
+            <div class="footer__one__s3">
+                <p>Terms</p>
+                <p>Privacy policy</p>
+                <p>Cookie settings</p>
+                <p>Sitemap</p>
+                <p>Accessibility statement</p>
+            </div>
+        </div>
+
+        <div class="footer__two">
+            <p>Udemy</p>
+            <p>&copy; Udemy, Inc</p>
+        </div>
+</body>
+
+</html>
