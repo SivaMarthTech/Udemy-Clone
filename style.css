@@ -108,9 +108,15 @@ display:none;
     padding: 10px;
     border-radius: 30px;
     cursor: pointer;
+    border: 1px solid #A435F0;
   
 }
-
+ .Categories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #A435F0;
+ }
 
  /* Move main content text 20px to the right */
  .main-content {
@@ -180,7 +186,7 @@ display:none;
 /* Main content section with background image */
 .sale-image {
     position: relative;
-    width: 100vw; /* Full viewport width */
+   
    
 }
 
@@ -201,8 +207,22 @@ display:none;
     background-color: white;
     top: 10%;
     left: 10%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
+@keyframes zoom{
+0%{
+    transform: scale(0);
+    opacity: 0;
+}
+100%{
+    transform: scale(1);
+    opacity: 1;
+}
+}
 
 /* Text box overlay in the top-left corner */
 .text-box {
